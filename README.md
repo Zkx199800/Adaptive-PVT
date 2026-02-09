@@ -12,9 +12,9 @@
 
 ## 🔥 Core Modules
 
-* **AFUFA (Adaptive Feature Unfolding and Alignment):** A guided-filtering-based alignment module that effectively bridges the spatial gap between high-resolution structural features and low-resolution semantic features.
-* **ABE (Adaptive Boundary Enhancement):** Dynamically refines boundary predictions, addressing the ambiguity often found in lesion and organ edges.
-* **Hierarchical Fusion:** Optimized PVT-V2 backbone to capture long-range dependencies while maintaining computational efficiency.
+* **AFUFA (Adaptive Feature Upsampling module with Feature Alignment capabilities):** A guided-filtering-based alignment module that effectively bridges the spatial gap between high-resolution structural features and low-resolution semantic features.
+* **ABE (Adaptive Boundary Enhancement):** enhances blurry boundaries by learning local similarity–driven adaptive sampling kernels.
+* **AFFGU (Adaptive Feature Fusion module based on Gating Units):** integrates spatial and channel cues with adaptive gating for effective feature fusion.
 
 ---
 
