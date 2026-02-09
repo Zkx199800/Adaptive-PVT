@@ -41,7 +41,31 @@ data/
 ├── ACDC/
 │   ├── training/             # 2D slices (.h5)
 │   └── testing/              # 3D volumes (.h5)
-├── Kvasir-SEG/               # Polyp images and masks (.png)
-│   ├── images/
-│   └── masks/
-├──
+├── Kvasir-SEG/               # Polyp images and masks (.jpg)
+│   ├── train/
+│   │   ├── images
+│   │   └── masks
+│   └── val/
+│   │   ├── images
+│   │   └── masks
+├── EndoScene/               # Polyp images and masks (.png)
+│   ├── train/
+│   │   ├── images
+│   │   └── masks
+│   └── val/
+│   │   ├── images
+│   │   └── masks
+├── ISIC2017/               # Skin lesion images and masks (.png)
+│   ├── train/
+│   │   ├── images
+│   │   └── masks
+│   └── val/
+│   │   ├── images
+│   │   └── masks
+├── ISIC2018/               # Skin lesion images and masks (.png)
+│   ├── train/
+│   │   ├── images
+│   │   └── masks
+│   └── val/
+│   │   ├── images
+│   │   └── masks
